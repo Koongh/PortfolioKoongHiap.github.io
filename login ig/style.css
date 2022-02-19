@@ -1,0 +1,119 @@
+ul{
+  list-style: none;
+}
+
+.back{
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 20%;
+  background-color: #ebe8e8;
+  box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+}
+
+nav ul{
+  display:flex;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height:60px;
+}
+
+nav ul li .back{
+    margin:30px;
+    font-family:myriad pro regular;
+    color:#505050;
+    font-size:15px;
+    font-weight:700;
+    
+}
+.container{
+    width: 800px;
+    margin: 0px auto;
+    padding-top: 98px;
+    display: flex;
+}
+
+.gambar{
+    width: 52%;
+}
+
+.cardwraper{
+    width: 50%;
+}
+
+.card{
+  width: 350px;
+  border-style: solid;
+  border-color: #dfdfdf;
+  border-width: 1px;
+  background-color: white;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 400px;
+  
+}
+
+.logoig{
+  width: 250px;
+  margin-top: 30px;
+}
+
+.form{
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.input{
+  width: 250px;
+  height:30px;
+  border: 1px solid #dfdfdf;
+  margin-bottom: 10px;
+}
+
+.login{
+  width:255px;
+  height: 30px;
+  border: 0px;
+  background-color: #6fbdf1;
+  color: #fafafa;
+  margin-top: 10px;
+
+}
+
+.loginfb{
+  color: blue;
+  text-decoration: none;
+}
+
+.forgot{
+  text-decoration: none;
+}
+
+.card2{
+  width: 350px;
+  border-style: solid;
+  border-color: #dfdfdf;
+  border-width: 1px;
+  background-color: white;
+  text-align: center;
+  height: 40px;
+  padding-top: 20px;
+  margin-top: 10px;
+  margin:0px auto;
+}
+
+.signup{
+  color:#026aa7;
+  text-decoration: none;
+}
+
+.download{
+  width: 350;
+}
+
+
+    

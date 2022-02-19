@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    font-family: 'poppins', sans-serif;
+}
+h3{
+    font-size: small;
+}
+
+.button{
+    background-color: aquamarine;
+    border: 3px solid aquamarine;
+    border-radius: 5px;
+}
+
+.button:hover{
+    background-color: white;
+    border: 3px solid aquamarine;
+    border-radius: 5px;
+    color: aquamarine;
+    transition: 1s;
+}
+
+.button_download{
+    border: 3px solid aquamarine;
+    border-radius: 5px;
+}
+
+.button_download:hover{
+    border: 3px solid aquamarine;
+    border-radius: 5px;
+    background-color: aquamarine;
+    color:white;
+    transition: 1s;
+}
+
+.home_img{
+    border: 30px solid aquamarine;
+    margin:50px 0;
+    border-radius: 20px;
+}
+
+section{
+    margin: 200px 0;
+}
+
+.about_data{
+    margin:50px 0;
+}
+.about_title{
+    font-size: medium;
+    font-weight: bold;
+}
+
+.portfolio_data{
+    margin:50px 0;
+}
+
+@media (max-width: 1200px){
+    .project{
+        max-width: 800px;
+        justify-content: center;
+    }
+}
+
+#contact a i{
+    font-size: 100px;
+    margin: 30px;
+
+}
+
+#contact a i:hover{
+    font-size: 100px;
+    margin: 0 30px;
+    color:aquamarine;
+    transform: scale(1.2);
+}
+
+
+
